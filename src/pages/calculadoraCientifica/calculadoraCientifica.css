@@ -1,0 +1,122 @@
+.normalTeclado {
+  display: grid;
+  width: 40vw;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1em;
+  font-size: 15px;
+  text-align: center;
+}
+.grid-item:hover {
+  background-color: antiquewhite;
+}
+
+.grid-item:active {
+  background-color: rgba(63, 201, 97, 0.8);
+}
+
+.grid-itemS {
+  background-color: rgba(63, 201, 97, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  height: 100%;
+}
+
+.grid-itemS:active {
+  background-color: aliceblue;
+}
+
+.normalVista {
+  display: grid;
+  grid-template-rows: repeat(2, 3fr);
+  background-color: #2196f3;
+  padding: 10px;
+  width: 80vw;
+}
+
+.normalSalida {
+  padding: 2em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.normalEntrada {
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.del-item:hover {
+  background-color: rgb(190, 102, 67);
+}
+.del-item:active {
+  background-color: #2196f3;
+}
+
+.del-item {
+  background-color: rgb(168, 73, 73);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.calculadoraCientifica {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.tecladoCientificaNormal {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.tecladoCientifico {
+  display: grid;
+  width: 40vw;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+@media screen and (max-width: 903px) {
+  .normalTeclado {
+    display: grid;
+    width: 90vw;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    background-color: #2196f3;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .grid-item:hover {
+    background-color: antiquewhite;
+  }
+
+  .grid-item:active {
+    background-color: rgba(63, 201, 97, 0.8);
+  }
+
+  .normalVista {
+    display: grid;
+    grid-template-rows: repeat(2, 3fr);
+    background-color: #2196f3;
+    padding: 10px;
+    width: 90vw;
+  }
+}
