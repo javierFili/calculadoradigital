@@ -17,7 +17,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
   return (
     <section className="tecladoCientifico">
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"sin"}
         onClick={() => {
           caracteresCientificos("sin()");
@@ -26,7 +26,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         sin
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"cos"}
         onClick={() => {
           caracteresCientificos("cos()");
@@ -35,7 +35,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         cos
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"tan"}
         onClick={() => {
           caracteresCientificos("tan()");
@@ -44,7 +44,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         tan
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"cosh"}
         onClick={() => {
           caracteresCientificos("cosh()");
@@ -53,7 +53,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         cosh
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"sinh"}
         onClick={() => {
           caracteresCientificos("sinh()");
@@ -62,7 +62,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         sinh
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"tanh"}
         onClick={() => {
           caracteresCientificos("tanh()");
@@ -71,7 +71,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         tanh
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"e"}
         onClick={() => {
           caracteresCientificos("e");
@@ -80,7 +80,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         e
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"ln"}
         onClick={() => {
           caracteresCientificos("ln()");
@@ -89,7 +89,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         ln
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"log"}
         onClick={() => {
           caracteresCientificos("log()");
@@ -98,7 +98,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         log
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"i"}
         onClick={() => {
           caracteresCientificos("i");
@@ -107,7 +107,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         i
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"Re"}
         onClick={() => {
           caracteresCientificos("Re");
@@ -116,7 +116,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         Re
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"x!"}
         onClick={() => {
           caracteresCientificos("x!");
@@ -125,7 +125,7 @@ const TeclasTrigonometria: React.FC<CalculadoraCientifica> = ({
         x!
       </button>
       <button
-        className="grid-item"
+        className="grid-item cientificButton"
         key={"|x|"}
         onClick={() => {
           caracteresCientificos("|x|");

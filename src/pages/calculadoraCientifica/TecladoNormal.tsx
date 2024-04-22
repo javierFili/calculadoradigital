@@ -19,7 +19,7 @@ const TecladoNormal: React.FC<TeclasNormal> = ({
         del
       </button>
       <button
-        className="grid-item"
+        className="grid-item "
         key="mod"
         onClick={() => ingresarNumeros("mod")}
       >

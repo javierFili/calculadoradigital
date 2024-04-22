@@ -48,15 +48,15 @@ function CalculadoraCientifica() {
         }}
       >
         <section className="calculadoraCientifica">
-          <section className="normalVista">
+          <section className="cientificaVista">
             <input
-              className="normalEntrada"
+              className="cientificaEntrada"
               type="text"
               value={resultado}
               readOnly
             />
           </section>
-          <section className="normalVista">
+          <section className="cientificaVista">
             <input
               className="normalSalida"
               type="text"
