@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cientifica/static/css/main.732cf2d2.css",
-    "main.js": "/cientifica/static/js/main.e40074f4.js",
+    "main.js": "/cientifica/static/js/main.87061487.js",
     "index.html": "/cientifica/index.html",
     "main.732cf2d2.css.map": "/cientifica/static/css/main.732cf2d2.css.map",
-    "main.e40074f4.js.map": "/cientifica/static/js/main.e40074f4.js.map"
+    "main.87061487.js.map": "/cientifica/static/js/main.87061487.js.map"
   },
   "entrypoints": [
     "static/css/main.732cf2d2.css",
-    "static/js/main.e40074f4.js"
+    "static/js/main.87061487.js"
   ]
 }
